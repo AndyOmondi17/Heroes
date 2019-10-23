@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mycompany.app</groupId>
@@ -9,7 +9,7 @@
   <version>1.0</version>
 
   <dependencies>
-<!-- We need to list out ALL dependencies our project needs. If you have dependencies not listed here, but sure to add them -->
+    <!-- We need to list out ALL dependencies our project needs. If you have dependencies not listed here, but sure to add them -->
     <dependency>
       <groupId>com.sparkjava</groupId>
       <artifactId>spark-core</artifactId>
@@ -59,7 +59,7 @@
           <archive>
             <!-- Change this to YOUR main class name if different. Usually, it will be App. -->
             <manifest>
-              <mainClass>App.java</mainClass>
+              <mainClass>App</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -71,7 +71,7 @@
         <configuration>
           <jdkVersion>1.8</jdkVersion>
           <!-- Change this to YOUR application name! -->
-          <appName>wamlambez</appName>
+          <appName>zzero</appName>
           <processTypes>
             <web>java -jar target/my-app-1.0-jar-with-dependencies.jar</web>
           </processTypes>
