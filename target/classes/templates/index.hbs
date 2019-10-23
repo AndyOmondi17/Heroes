@@ -1,0 +1,16 @@
+{{#partial "content"}}
+
+    <h1>List of Heroes</h1>
+
+   {{#if heroes}} --}}
+         {{#each heroes }} --}}
+              <p>Current Hero:</p> --}}
+                            <a href="/hero/{{id}}">{{name}}</a></p>
+                       <a href="/hero/{{hero.id}}/delete">DELETE this Hero (no reversal)</a>
+        {{/each}}
+     {{else}}
+      <p>No Heroes!</p>
+    {{/if}}
+{{/partial}}
+
+{{> layout.hbs}}

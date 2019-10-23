@@ -1,6 +1,6 @@
 # Hero Squad
 
-#DESCRIPTION
+# DESCRIPTION
 This is an application that allows the user to enter a word and after that the word is encrypted based on the shift keyed in by the user.It also allows the user to decrypt the word.
 
 ## Setup Installation

@@ -1,0 +1,52 @@
+{{#block "header"}}
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>{{#block "title"}}NAIROBI'S Avengers{{/block}}</title>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Aladin|Fredericka+the+Great|Kumar+One|Luckiest+Guy|Marck+Script&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="https://images.pexels.com/photos/2235130/pexels-photo-2235130.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+    </head>
+{{/block}}
+<body >
+<header class="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/squads">Squads</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/heroes">Heroes</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header> <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="https://images.pexels.com/photos/346796/pexels-photo-346796.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"   width="100%">
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-7">
+            {{#block "content"}}
+            {{/block}}
+        </div>
+    </div>
+</div>
+{{#block "footer"}}
+    </body>
+</html>
+{{/block}}
